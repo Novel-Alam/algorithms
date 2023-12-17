@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E4C4A78D2B2F9F14007782C4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E4C4A78C2B2F9F14007782C4 /* main.c */; };
+		E4C4A7962B2F9FAC007782C4 /* heapAlgorithms.c in Sources */ = {isa = PBXBuildFile; fileRef = E4C4A7952B2F9FAC007782C4 /* heapAlgorithms.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		E4C4A7892B2F9F14007782C4 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C4A78C2B2F9F14007782C4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		E4C4A7932B2F9F89007782C4 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		E4C4A7942B2F9FAC007782C4 /* heapAlgorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = heapAlgorithms.h; sourceTree = "<group>"; };
+		E4C4A7952B2F9FAC007782C4 /* heapAlgorithms.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = heapAlgorithms.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				E4C4A78C2B2F9F14007782C4 /* main.c */,
+				E4C4A7942B2F9FAC007782C4 /* heapAlgorithms.h */,
+				E4C4A7952B2F9FAC007782C4 /* heapAlgorithms.c */,
+				E4C4A7932B2F9F89007782C4 /* main.h */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -120,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4C4A78D2B2F9F14007782C4 /* main.c in Sources */,
+				E4C4A7962B2F9FAC007782C4 /* heapAlgorithms.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,6 +6,8 @@
 //
 
 #include <stdio.h>
+#include "main.h"
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
