@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "22F79B97-A26A-463B-B48F-1A731FE00438"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63FA6CEC-F3EF-46AA-96EF-F7399FC59D24"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithms/heapAlgorithms.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "Node"
+            landmarkType = "16">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD2990E1-72D5-46D7-AAE2-DAD63609E3A9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithms/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "DD2990E1-72D5-46D7-AAE2-DAD63609E3A9 - 72cfcad6e06a20fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/novelalam/Algorithms/Algorithms/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "DD2990E1-72D5-46D7-AAE2-DAD63609E3A9 - 72cfcad6e06a235e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/novelalam/Algorithms/Algorithms/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3F7E28E-EFE7-4E77-9FD7-095374D6D731"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithms/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7DB79A7F-9E1E-4084-A936-F8B38246F942"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithms/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "7DB79A7F-9E1E-4084-A936-F8B38246F942 - 72cfcad6e06a1c46"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/novelalam/Algorithms/Algorithms/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "7DB79A7F-9E1E-4084-A936-F8B38246F942 - 72cfcad6e06a1cc2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/novelalam/Algorithms/Algorithms/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "240">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF45F121-9AAC-4720-8CF2-0AD1118320C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithms/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08865A24-950E-418C-B310-7D4489A7675E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithms/heapAlgorithms.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "maxHeapify(node)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "08865A24-950E-418C-B310-7D4489A7675E - 3fb3ab0f0eb6ea0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "maxHeapify"
+                  moduleName = "Algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/novelalam/Algorithms/Algorithms/heapAlgorithms.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "416">
+               </Location>
+               <Location
+                  uuid = "08865A24-950E-418C-B310-7D4489A7675E - 3fb3ab0f0eb6ea0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "maxHeapify"
+                  moduleName = "Algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/novelalam/Algorithms/Algorithms/heapAlgorithms.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "424">
+               </Location>
+               <Location
+                  uuid = "08865A24-950E-418C-B310-7D4489A7675E - 3fb3ab0f0eb6ea6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "maxHeapify"
+                  moduleName = "Algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/novelalam/Algorithms/Algorithms/heapAlgorithms.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "452">
+               </Location>
+               <Location
+                  uuid = "08865A24-950E-418C-B310-7D4489A7675E - 3fb3ab0f0eb6ea6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "maxHeapify"
+                  moduleName = "Algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/novelalam/Algorithms/Algorithms/heapAlgorithms.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "376">
+               </Location>
+               <Location
+                  uuid = "08865A24-950E-418C-B310-7D4489A7675E - 3fb3ab0f0eb6ea6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "maxHeapify"
+                  moduleName = "Algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/novelalam/Algorithms/Algorithms/heapAlgorithms.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "428">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37F72552-284E-4D0E-9FCF-00705F8EF587"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithms/heapAlgorithms.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "maxHeapify(node)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "37F72552-284E-4D0E-9FCF-00705F8EF587 - 3fb3ab0f0eb6f78b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "maxHeapify"
+                  moduleName = "Algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/novelalam/Algorithms/Algorithms/heapAlgorithms.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "37F72552-284E-4D0E-9FCF-00705F8EF587 - 3fb3ab0f0eb6f78b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "maxHeapify"
+                  moduleName = "Algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/novelalam/Algorithms/Algorithms/heapAlgorithms.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
