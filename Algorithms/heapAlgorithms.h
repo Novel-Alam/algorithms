@@ -26,8 +26,8 @@ typedef struct Node{
 /* maxHeap structure that will have the root as greatest element*/
 typedef struct maxHeap{
     Node* root; //Pointer to node that is parent
-    void (*maxHeapify)(Node*); //function pointer to run maxheap on a node
     Node* (*getRoot)(struct maxHeap*); //function pointer to return root
+    void (*buildHeap)(Node*); //function pointer that will hold address of buildHeap function
 } maxHeap;
 
 /* function decarations that will be linked to the function pointers in maxHeap */
@@ -47,5 +47,21 @@ void maxHeapify(Node*);
 
 Node* getRoot(maxHeap *);
 
+
+/*
+ * @brief Will run maxheap on all nodes with children starting from bottom right to top left so final heap is a max heap
+ * @param pointer to rightmost node with children
+ * @return void
+ */
+void buildHeap(void);
+
+
+
+/*
+ * @brief This function will get input from the console and create a node and put it in the maxHeap
+ * @param pointer to the maxHeap nodes will get inputted into
+ * @return void
+ */
+void loadHeap(maxHeap *);
 
 #endif /* heapAlgorithms_h */

@@ -1,60 +1,86 @@
 #include "heapAlgorithms.h"
 #include <stdlib.h>
-/*
- * @brief Will place a node in a heap in a position to maintain maxheap properity
- * @param Pointer of the node it be maxHeap alogrithm run on it
- * @return Nothing returned
- */
+
 void maxHeapify(Node* node) {
-    /*Keep running loop as long as one of the child nodes are greater than node*/
-    while ((node->value < node->right->value) || (node->value < node->left->value)) {
-        /*find the bigger of the childen and swap places*/
-        if (node->right->value >=  node->left->value) { //if right node is greater or equal
-            node->right->parent = node->parent; //set parent of right to be equal to node's parent
-            if (node->parent != NULL)
-                node->parent->right = node->right; //set the right child of node's parent to nodes' right child
-            
-            node->parent = node->right; //set the node's parent to right node
-            
-            
-            
-            /* These nodes hold the left and right of the nodes'right as they get overridden*/
-            Node* tempLeft =  node->right->left;
-            Node* tempRight =  node->right->right;
 
-            
-            node->right->left = node->left; //set left of the right node to left of node;
-            node->right->right = node; //set right nodes right  to be equal to node
-            
-            /* Set the left and right nodes of node to  nodes'right*/
-            node->left->parent = node->parent; //set the old left of node parent to node replaceing node
-            node->left = tempLeft;
-            
-            node->right = tempRight;
-            
-            //free(tempLeft);
-            //free(tempRight);
-            /* sets the proper parent to the left and right node of node if they are not null*/
-            if (node->left != NULL)
-                node->left->parent = node;
-            
-            if (node->right != NULL)
-                node->right->parent = node;
-            
-            
-
-        } else {
-            
+    Node* rightNode = node->right; //pointer to hold rightNode
+    Node* leftNode = node->left; //pointer to hold left node
+    
+    /* Recursive base condition*/
+    if (node == NULL || (rightNode == NULL && leftNode == NULL))
+        return;
+        
+ 
+    
+    if (rightNode == NULL || leftNode == NULL) { //this block of code will run if either rightNode or leftNode are NULL
+        if (rightNode != NULL && leftNode == NULL) { //if the rightNode is not NULL but leftNode is NULL
+            if (rightNode->value > node->value) {  //swap node with rightNode if rightNode is greater
+                int tempValue = node->value; //tempValue stores the value of node so I can set node->value to a new value and set the rightnode->value = node->value
+                node->value = rightNode->value;
+                rightNode->value = tempValue;
+                  
+                return maxHeapify(rightNode); //run the same algorithm on the right node which is the new "node"
+            } else {
+                return; //node is in correct place
+            }
+        } else if (leftNode != NULL && rightNode == NULL) { //leftNode is not NULL but rightNode is
+            if (leftNode->value > node->value) { //leftNode greater than node and no right node
+                /* Store nodes' value, set node = to leftNode's value and set the new leftNode to node's value */
+                int tempValue = node->value;
+                node->value = leftNode->value;
+                leftNode->value = tempValue;
+                
+                return maxHeapify(leftNode); //run the same algorithm on leftNode which is the new "Node"
+            } else {
+                return; //node in correct place
+            }
         }
+        
     }
+    else { //the else block will handel the case when both right and left node are not null
+        
+        /*set largest node to the largest node value*/
+        if ((node->value > rightNode->value) && (node->value > leftNode->value)) {
+            return; //REturn since it is already a max heap
+        } else if (rightNode->value > leftNode->value) { //right nodes is the greatest
+            int tempValue = node->value; //tempValue stores the value of node so I can set node->value to a new value and set the rightnode->value = node->value
+            node->value = rightNode->value;
+            rightNode->value = tempValue;
+            
+            return maxHeapify(rightNode); //run the same algorithm on the right node which is the new "node"
+            
+        } else if (leftNode->value > rightNode->value) { //left node is the greatest
+            /* Store nodes' value, set node = to leftNode's value and set the new leftNode to node's value */
+            int tempValue = node->value;
+            node->value = leftNode->value;
+            leftNode->value = tempValue;
+            
+            return maxHeapify(leftNode); //run the same algorithm on leftNode which is the new "Node"
+        } else {
+            return; //must be an error
+        }
+        
+    }
+    
+    
+ 
+    
 }
 
-/*
- * @brief Will place a node in a heap in a position to maintain maxheap properity
- * @param Pointer of the node it be maxHeap alogrithm run on it
- * @return Nothing returned
- */
 Node* getRoot(maxHeap* maxHeap) {
+    if (maxHeap == NULL)
+        return NULL;
     return maxHeap->root;
 }
 
+
+/*
+ * @brief This function will get input from the console and create a node and put it in the maxHeap
+ * @param pointer to the maxHeap nodes will get inputted into
+ * @return void
+ */
+void loadHeap(maxHeap* mH) {
+    uint32_t valueToInput; //This integer will store the integer to input to the heap
+    Node* previousNode
+    
+}
